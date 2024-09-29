@@ -2,3 +2,4 @@
 dist
 nest-backend/node_modules
 react-frontend/node_modules
+react-frontend/.env

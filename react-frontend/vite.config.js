@@ -31,6 +31,8 @@ export default defineConfig(({ command }) => {
       alias: {
         "@": "/src",
         src: "/src",
+        react: "react",
+        "react-dom": "react-dom",
       },
     },
   };
