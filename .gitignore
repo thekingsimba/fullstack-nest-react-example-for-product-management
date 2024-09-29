@@ -1,4 +1,7 @@
 .gitconfig
+.vscode
 dist
 nest-backend/node_modules
+nest-backend/.env
 react-frontend/node_modules
+react-frontend/.env
