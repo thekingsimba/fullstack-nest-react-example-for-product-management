@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes as Switch } from "react-router-dom";
 
+import Login from "../pages/Login";
 import ProtectedRoute from "./ProtectedRoute";
 
 const Routes = () => {
@@ -12,7 +13,7 @@ const Routes = () => {
 
         <Route path="*" element={<Navigate replace to="/product" />} />
       </Route>
-      <Route path="/login" element={<div>Login page</div>} />
+      <Route path="/login" element={<Login />} />
     </Switch>
   );
 };
